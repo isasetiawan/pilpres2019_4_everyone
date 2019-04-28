@@ -9,13 +9,9 @@ var kpuRouter = require('./routes/kpu');
 
 var app = express();
 
-var whitelist = ['http://localhost:3000', 'https://realcount.id']
-var corsOptions = {
-  origin: 'https://realcount.id',
-  credential:true
-}
-
-app.use(cors(corsOptions))
+app.use(cors({
+    origin:"*"
+}))
 
 app.use(logger('dev'));
 app.use(express.json());
