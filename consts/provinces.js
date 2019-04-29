@@ -7,7 +7,7 @@ const provinces = {
 "17404":"Sumatera Selatan",
 "20802":"Bengkulu",
 "22328":"Lampung",
-"24993":"Bangka-Belitung",
+"24993":"Bangka Belitung",
 "25405":"Kepulauan Riau",
 "25823":"Jakarta Raya",
 "26141":"Jawa Barat",
@@ -30,7 +30,7 @@ const provinces = {
 "75425":"Sulawesi Barat",
 "76096":"Maluku",
 "77085":"Maluku Utara",
-"78203":"Irian Jaya Barat",
+"78203":"Papua Barat",
 "81877":"Papua",
 "928068":"Kalimantan Utara",
 "-99":"Luar Negri"
